@@ -85,7 +85,7 @@ img {
 }
 
 .carousel-caption {
-  bottom: 75px;
+  bottom: 50px;
 }
 
 .item-carousel::before {
