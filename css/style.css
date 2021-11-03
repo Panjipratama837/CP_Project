@@ -68,12 +68,6 @@ img {
   color: #ffffff;
 }
 
-.btn {
-  padding: 14px 18px;
-  border-width: 2px;
-  border-radius: 0;
-}
-
 /* Slider */
 
 .item-carousel img {
@@ -267,7 +261,7 @@ img {
     font-size: 3rem;
   }
   .carousel-caption {
-    bottom: 180px;
+    bottom: 280px;
     padding-left: 100px;
     padding-right: 100px;
   }
