@@ -47,6 +47,10 @@ img {
   width: 100%;
 }
 
+.nav-bg {
+  background-color: var(--dark);
+}
+
 .navbar {
   box-shadow: var(--box-shadow);
 }
@@ -103,7 +107,6 @@ img {
 .workingspace h3 {
   font-size: 1.8rem;
   font-weight: 200;
-  margin-top: 30px;
 }
 
 .workingspace p {
@@ -136,6 +139,11 @@ img {
   font-size: 32px;
   border-radius: 100px;
   flex: none;
+}
+
+.oflow {
+  overflow: auto;
+  height: 200px;
 }
 
 .service {
@@ -231,6 +239,16 @@ img {
   opacity: 0;
 }
 
+.item {
+  transition: 0.5s ease-in-out;
+}
+
+.item:hover {
+  filter: brightness(80%);
+}
+
+/* Media Queries */
+
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .left {
@@ -247,5 +265,8 @@ img {
 
   .mt-3 {
     margin-top: 0rem !important;
+  }
+  .nav-bg {
+    background-color: transparent;
   }
 }

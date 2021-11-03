@@ -15,6 +15,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
+    />
 
     <title>Company Profile</title>
   </head>
@@ -22,7 +27,10 @@
   <body>
     <!-- NAVBAR -->
     <div class="header-inner">
-      <nav id="sticky" class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <nav
+        id="sticky"
+        class="navbar fixed-top navbar-expand-lg navbar-dark nav-bg"
+      >
         <div class="container">
           <a class="navbar-brand logos" href="#home">Navbar</a>
           <button
@@ -47,13 +55,14 @@
                 <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Journey</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="#features">Features</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#product">Product</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#team">Team</a>
@@ -99,16 +108,17 @@
           <div class="col-lg-6">
             <h3>About Us</h3>
             <p>
-              We process more than 1,500 hectares of coconut plantations, spread
-              across several islands in Eastern Indonesia.
+              We produce palm sugar, provide coffee beans and tea leaves, bamboo
+              and wood crafts from various regions in Indonesia with the best
+              standards and processing.
             </p>
-
+            <h3>Journey</h3>
             <p>
-              In the beginning, our company was engaged in manufacturing where
-              we processed coconut derivative products, namely coconut shells
-              into coconut shell charcoal. And after that our company expanded
-              and expanded into coconut plantations, to process more derivative
-              products.
+              At the beginning, our company engaged with small manufactures in
+              our area. The factory produces various types of coconut-based
+              products. After that our company developed by cooperating with
+              farmers and craftsmen with various basic materials of wood and
+              coconut.
             </p>
           </div>
 
@@ -138,75 +148,52 @@
           </div>
         </div>
         <div class="row g-4">
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-6 col-sm-6">
             <div class="service card-effect bounceInUp">
               <div class="iconbox">
-                <i class="bx bxs-check-shield"></i>
+                <i class="bx bx-donate-heart"></i>
               </div>
-              <h5 class="mt-4 mb-2">Service</h5>
+              <h5 class="mt-4 mb-2">Openness</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                perspiciatis illo asperiores perferendis
+                We will always be open to providing information needed by all
+                consumers regarding the products needed quickly and accurately
               </p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-6 col-sm-6">
             <div class="service card-effect">
               <div class="iconbox">
-                <i class="bx bxs-comment-detail"></i>
+                <i class="bx bx-check-shield"></i>
               </div>
-              <h5 class="mt-4 mb-2">Service</h5>
+              <h5 class="mt-4 mb-2">Integrity</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                perspiciatis illo asperiores perferendis
+                Integrity means always telling the truth. Keep agreements and
+                treat others with honesty and respect. Integrity is important
+                and fundamental
               </p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-6 col-sm-6">
             <div class="service card-effect">
               <div class="iconbox">
-                <i class="bx bxs-cog"></i>
+                <i class="bx bx-medal"></i>
               </div>
-              <h5 class="mt-4 mb-2">Service</h5>
+              <h5 class="mt-4 mb-2">Quality</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                perspiciatis illo asperiores perferendis
+                We are committed to always maintain quality and provide quality
+                with the best standards requested
               </p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-6 col-sm-6">
             <div class="service card-effect">
               <div class="iconbox">
-                <i class="bx bxs-heart"></i>
+                <i class="bx bxs-group"></i>
               </div>
-              <h5 class="mt-4 mb-2">Service</h5>
+              <h5 class="mt-4 mb-2">Commitment</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                perspiciatis illo asperiores perferendis
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="service card-effect">
-              <div class="iconbox">
-                <i class="bx bxs-rocket"></i>
-              </div>
-              <h5 class="mt-4 mb-2">Service</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                perspiciatis illo asperiores perferendis
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="service card-effect">
-              <div class="iconbox">
-                <i class="bx bxs-doughnut-chart"></i>
-              </div>
-              <h5 class="mt-4 mb-2">Service</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                perspiciatis illo asperiores perferendis
+                We are committed to always provide the best for all consumers
+                and investors.
               </p>
             </div>
           </div>
@@ -218,27 +205,32 @@
     <!-- Product -->
     <section class="section" id="product">
       <div class="container">
-        <h2 class="text-center">Our Product</h2>
+        <h6 class="text-primary text-center">PRODUCT</h6>
+        <h1 class="text-center">Our Product</h1>
         <div
           id="carouselExampleControls"
           class="carousel slide"
           data-bs-ride="carousel"
         >
+          <!-- Product 1 -->
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row workingspace">
                 <div class="col-lg-5">
-                  <img src="img/02.jpg" alt="Workingspace" class="img-fluid" />
+                  <img
+                    src="img/product/Palm Sugar.jpeg"
+                    alt="Workingspace"
+                    class="img-fluid"
+                  />
                 </div>
                 <div class="col-lg-7">
-                  <h2 class="mt-3">Coconut Oil</h2>
+                  <h2 class="mt-3">Palm Sugar</h2>
                   <p>
-                    Coconut oil, or copra oil, is an edible oil extracted from
-                    the kernel or meat of mature coconuts harvested from the
-                    coconut palm (Cocos nucifera). It has various applications.
-                    Because of its high saturated fat content, it is slow to
-                    oxidize and, thus, resistant to rancidification, lasting up
-                    to six months at 24 °C (75 °F) without spoiling.
+                    Palm sugar is a sweetener derived from any variety of palm
+                    tree. Palm sugar is sometimes qualified by the type of palm,
+                    as in coconut palm sugar. While sugars from different palms
+                    may have slightly different compositions, all are processed
+                    similarly and can be used interchangeably
                   </p>
                   <a href="" class="btn btn-primary tombol">See Details</a>
                   <a href="" class="btn btn-primary tombol">Contact Us</a>
@@ -246,49 +238,178 @@
               </div>
             </div>
 
+            <!-- Product 2 -->
             <div class="carousel-item">
               <div class="row workingspace">
                 <div class="col-lg-5">
                   <img
-                    src="img/copra-meal.46f4e843.jpeg"
+                    src="img/product/palm bamboo.jpg"
                     alt="Workingspace"
                     class="img-fluid"
                   />
                 </div>
                 <div class="col-lg-7">
-                  <h2 class="mt-3">Virgin Coconut Oil</h2>
+                  <h2 class="mt-3">Palm Broom Stick</h2>
                   <p>
-                    Virgin coconut oil is the oil extracted from coconuts
-                    without the application of heat. It is rapidly gaining
-                    popularity throughout the world in comparison to ordinary
-                    coconut oil and for a good reason. There is, in fact, a
-                    substance called virgin coconut oil and it differs from
-                    regular coconut oil in significant ways. These differences
-                    mainly lie with the source (more specifically, the physical
-                    form of the source), the method of extraction, and its
-                    subsequent benefits.
+                    Palm broom stick is a broom made from indonesian palm
+                    leaves. Can used as a craft material and for cleaning tools.
+                    Our Specs : – Length : 90-120 cm
                   </p>
                   <a href="" class="btn btn-primary tombol">See Details</a>
                   <a href="" class="btn btn-primary tombol">Contact Us</a>
                 </div>
               </div>
             </div>
+
+            <!-- Product 3 -->
             <div class="carousel-item">
               <div class="row workingspace">
                 <div class="col-lg-5">
-                  <img src="img/01.jpg" alt="Workingspace" class="img-fluid" />
+                  <img
+                    src="img/product/tea.jpg"
+                    alt="Workingspace"
+                    class="img-fluid"
+                  />
                 </div>
                 <div class="col-lg-7">
-                  <h2 class="mt-3">Coconut Briquette Charcoal</h2>
+                  <h2 class="mt-3">Tea</h2>
+                  <p class="oflow">
+                    Tea is an aromatic beverage prepared by pouring hot or
+                    boiling water over cured or fresh leaves of Camellia
+                    sinensis, an evergreen shrub native to China and East
+                    Asia.After water, it is the most widely consumed drink in
+                    the world. There are many different types of tea; some, like
+                    Chinese greens and Darjeeling, have a cooling, slightly
+                    bitter, and astringent flavour, while others have vastly
+                    different profiles that include sweet, nutty, floral, or
+                    grassy notes. Tea has a stimulating effect in humans
+                    primarily due to its caffeine content. Loose leaf tea is
+                    good for your health. Tea has antioxidant and
+                    anti-inflammatory properties which can contribute to your
+                    overall wellness. The primary chemicals responsible for the
+                    health claims of green tea, called catechins, are found in
+                    the highest concentrations in fresh leaves
+                  </p>
+                  <a href="" class="btn btn-primary tombol">See Details</a>
+                  <a href="" class="btn btn-primary tombol">Contact Us</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="carousel-item">
+              <div class="row workingspace">
+                <div class="col-lg-5">
+                  <img
+                    src="img/product/Round bamboo.jpeg"
+                    alt="Workingspace"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-lg-7">
+                  <h2 class="mt-3">Round Bamboo Wall Art</h2>
                   <p>
-                    Coconut Charcoal Briquette is a compact block charcoal which
-                    made from coconut shell charcoal. Our charcoal briquette is
-                    made of granular coconut shell charcoal that is crushed
-                    charcoal and moulded using a natural binder. As fuel, it is
-                    hotter and last longer than ordinary charcoal. It is
-                    suitable for household use both indoor and outdoor. Also, it
-                    can be used in food industries, for barbecue, stove fuel,
-                    metallurgy, etc.
+                    Round out your accent wall with this impressive woven art
+                    piece made from bamboo. Reminiscent of open-air market
+                    selling baskets, with a slightly concave shape and shallow
+                    rim, it adds warmth, texture and eclectic style wherever
+                    it's hung handcrafted from bamboo.
+                  </p>
+                  <a href="" class="btn btn-primary tombol">See Details</a>
+                  <a href="" class="btn btn-primary tombol">Contact Us</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="carousel-item">
+              <div class="row workingspace">
+                <div class="col-lg-5">
+                  <img
+                    src="img/product/coffee.jpeg"
+                    alt="Workingspace"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-lg-7">
+                  <div class="description oflow pb-3">
+                    <h2 class="mt-3">Coffee</h2>
+                    <p>
+                      A coffee bean is a seed of the Coffea plant and the source
+                      for coffee. It is the pip inside the red or purple fruit
+                      often referred to as a cherry. Just like ordinary
+                      cherries, the coffee fruit is also a so-called stone
+                      fruit. We also provide coffee in powder
+                    </p>
+                    <h5>Type of coffee powder</h5>
+                    <li>
+                      Very coarse (extra coarse) The shape of this coffee bean
+                      grind is very coarse, almost similar to the shape of a
+                      peppercorn.
+                    </li>
+                    <li>Rough (coarse)</li>
+                    <li>Medium coarse (medium coarse)</li>
+                    <li>Medium fine (medium fine)</li>
+                    <li>Smooth (fine)</li>
+                    <li>Very fine (extra fine)</li>
+                  </div>
+
+                  <a href="" class="btn btn-primary tombol">See Details</a>
+                  <a href="" class="btn btn-primary tombol">Contact Us</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="carousel-item">
+              <div class="row workingspace">
+                <div class="col-lg-5">
+                  <img
+                    src="img/product/wood kitchen.jpeg"
+                    alt="Workingspace"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-lg-7">
+                  <h2 class="mt-3">Wood Kitchen Utensils</h2>
+                  <p class="oflow">
+                    Wood is a cutlery that is known to be safe from reaction
+                    with food. In addition to looking natural, wooden cutlery
+                    has a design that is quite unique so it is widely preferred
+                    for cutlery as well as kitchen and dining table decorations.
+                    Wood is one of the materials known for its strength and
+                    durability, if you use wooden cutlery, this will give you
+                    some advantages such as a long and strong period of use with
+                    the temperature of the food ingredients so you don't need to
+                    be afraid to be wasteful buying cutlery because wooden
+                    utensils are quite safe and durable. Using wooden utensils
+                    is considered quite environmentally friendly because it
+                    reduces the use of plastic or deep metal. The industry has
+                    waste that is quite dangerous for the environment.
+                  </p>
+                  <a href="" class="btn btn-primary tombol">See Details</a>
+                  <a href="" class="btn btn-primary tombol">Contact Us</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="carousel-item">
+              <div class="row workingspace">
+                <div class="col-lg-5">
+                  <img
+                    src="img/product/Coconut Charcoal Briquette.jpg"
+                    alt="Workingspace"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-lg-7">
+                  <h2 class="mt-3">Coconut Charcoal Briquette</h2>
+                  <p>
+                    Coconut charcoal briquette usually consists of more than one
+                    ingredient. It can come from coconut shells, coconut wood
+                    sawdust or ordinary wood, bagasse, and so on. But for the
+                    most important is coconut wood charcoal.
                   </p>
                   <a href="" class="btn btn-primary tombol">See Details</a>
                   <a href="" class="btn btn-primary tombol">Contact Us</a>
@@ -316,6 +437,55 @@
         <span class="visually-hidden">Next</span> -->
             <i class="bx bx-chevron-right swiper-portfolio-icon right"></i>
           </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-8 mx-auto text-center">
+            <h6 class="text-primary">GALLERY</h6>
+            <h1>Our Gallery</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur nisi necessitatibus
+              repellat distinctio eveniet eaque fuga in cumque optio consectetur
+              harum vitae debitis sapiente praesentium aperiam aut
+            </p>
+          </div>
+        </div>
+
+        <div class="row mt-4 justify-content-center">
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="gallery/01.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="gallery/01.jpg" width="100%" height="100%" />
+            </a>
+          </div>
+
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="gallery/02.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="gallery/02.jpg" width="100%" height="100%" />
+            </a>
+          </div>
+
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="gallery/03.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="gallery/03.jpg" width="100%" height="100%" />
+            </a>
+          </div>
+
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="gallery/04.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="gallery/04.jpg" width="100%" height="100%" />
+            </a>
+          </div>
+
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="gallery/05.jpg" class="fancybox" data-fancybox="gallery1">
+              <img src="gallery/05.jpg" width="100%" height="100%" />
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -405,10 +575,11 @@
               <div class="col-lg-2">
                 <h5 class="text-white">Brand</h5>
                 <ul class="list-unstyled">
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Features</a></li>
-                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#features">Features</a></li>
+                  <li><a href="#product">Product</a></li>
+                  <li><a href="#gallery">Gallery</a></li>
+                  <li><a href="#team">Team</a></li>
                 </ul>
               </div>
               <div class="col-lg-2">
@@ -453,35 +624,25 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/wow.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script>
       new WOW().init();
+      const header = document.getElementById("sticky");
 
       // Sticky Navbar
-      window.addEventListener("scroll", function () {
-        let header = document.getElementById("sticky");
-        let windowPosition = window.scrollY > 40;
-        header.classList.toggle("bg-light", windowPosition);
-        header.classList.remove("navbar-dark", windowPosition);
-        header.classList.add("navbar-light", windowPosition);
 
-        if (windowPosition == 0) {
-          header.classList.remove("navbar-light", windowPosition);
-          header.classList.add("navbar-dark", windowPosition);
+      window.addEventListener("scroll", function () {
+        if (window.innerWidth > 992) {
+          let windowPosition = window.scrollY > 40;
+          header.classList.toggle("bg-light", windowPosition);
+          header.classList.remove("navbar-dark", windowPosition);
+          header.classList.add("navbar-light", windowPosition);
+          if (windowPosition == 0) {
+            header.classList.remove("navbar-light", windowPosition);
+            header.classList.add("navbar-dark", windowPosition);
+          }
         }
       });
-
-      // top nav menu
-
-      // let menuItems = document.getElementsByClassName("nav-link");
-
-      // Array.from(menuItems).forEach((item, index) => {
-      //   item.onclick = (e) => {
-      //     let currMenu = document.querySelector(".nav-link.active");
-      //     currMenu.classList.remove("active");
-      //     item.classList.add("active");
-      //   };
-      // });
 
       /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
       const sections = document.querySelectorAll("section[id]");
