@@ -85,7 +85,7 @@ img {
 }
 
 .carousel-caption {
-  bottom: 100px;
+  bottom: 75px;
 }
 
 .item-carousel::before {
@@ -272,6 +272,10 @@ img {
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+
+  .hidden {
+    display: none;
   }
 
   .left {
