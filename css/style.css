@@ -85,7 +85,7 @@ img {
 }
 
 .carousel-caption {
-  bottom: 52px;
+  bottom: 75px;
 }
 
 .item-carousel::before {
@@ -262,7 +262,7 @@ img {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  /* Carousel*/
+  /* Carousel */
   .item-carousel h1 {
     font-size: 3rem;
   }
