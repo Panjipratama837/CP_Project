@@ -47,28 +47,39 @@
           <div class="collapse navbar-collapse nav__menu" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home"
+                <a
+                  class="nav-link js-scroll-trigger active"
+                  aria-current="page"
+                  href="#home"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link js-scroll-trigger" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#features">Features</a>
+                <a class="nav-link js-scroll-trigger" href="#features"
+                  >Features</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#product">Product</a>
+                <a class="nav-link js-scroll-trigger" href="#product"
+                  >Product</a
+                >
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#gallery">Gallery</a>
+                <a class="nav-link js-scroll-trigger" href="#gallery"
+                  >Gallery</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#team">Team</a>
+                <a class="nav-link js-scroll-trigger" href="#team">Team</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link js-scroll-trigger" href="#contact"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
@@ -77,20 +88,98 @@
     </div>
     <!-- //NAVBAR -->
 
-    <!-- HERO -->
+    <!-- Slider -->
     <section id="home">
-      <div class="hero vh-100 d-flex align-items-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-7">
-              <h1 class="display-4 text-white">
-                The Leading Supplier of Coconut Product
-              </h1>
-              <p class="text-white my-3">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
-                quia sequi eius. Quas, totam aliquid. Repudiandae reiciendis vel
-                excepturi ipsa voluptate dicta!
-              </p>
+      <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item item-carousel active">
+          <img src="slider/01.jpeg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="display-4 text-white">
+              A Tea
+            </h1>
+            <p class="text-white my-3">
+              The benefits of tea include being an antioxidant, repairing damaged cells, smoothing the skin, slimming the body, preventing cancer, preventing heart disease, reducing cholesterol in the blood, improving blood circulation. So, do not be surprised if this drink is touted as a drink rich in benefits.
+            </p>
+
+            <div class="slide-btn">
+              <a href="#" class="btn me-2 btn-primary">Get Started</a>
+              <a href="#" class="btn btn-outline-light">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item item-carousel">
+          <img src="slider/02.jpeg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="display-4 text-white">
+              Coffee
+            </h1>
+            <p class="text-white my-3">
+              Coffee is a stimulant drink that contains caffeine. The content can increase energy, alertness, mood, and brain function.
+            </p>
+            <div class="slide-btn">
+              <a href="#" class="btn me-2 btn-primary">Get Started</a>
+              <a href="#" class="btn btn-outline-light">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item item-carousel">
+          <img src="slider/03.jpeg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="display-4 text-white">
+              Coconut Product
+            </h1>
+            <p class="text-white my-3">
+              Coconut water is known to have many benefits for the body. Not only refreshing the body during hot weather, coconut water can also add electrolytes and minerals to the body. In fact, coconut water contains nutrients such as antioxidants that can prevent damage to body cells.
+            </p>
+            <div class="slide-btn">
+              <a href="#" class="btn me-2 btn-primary">Get Started</a>
+              <a href="#" class="btn btn-outline-light">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item item-carousel">
+          <img src="slider/04.jpeg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="display-4 text-white">
+              Palm Sugar
+            </h1>
+            <p class="text-white my-3">
+              Palm sugar contains up to 70 percent sucrose and about 10 percent invert sugar (a mixture of glucose and fructose). In addition to this composition, palm sugar also contains protein and a number of minerals, such as phosphorus, copper, calcium, potassium, magnesium, sodium, iron, zinc, and manganese, although in small amounts.
+            </p>
+            <div class="slide-btn">
               <a href="#" class="btn me-2 btn-primary">Get Started</a>
               <a href="#" class="btn btn-outline-light">Learn More</a>
             </div>
@@ -99,7 +188,27 @@
       </div>
     </section>
 
-    <!-- //HERO -->
+      <!-- Arrow Button -->
+      <!-- <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+    </div>
+    <!-- End Slider  -->
 
     <!-- About -->
     <section class="section" id="about">
@@ -112,7 +221,7 @@
               and wood crafts from various regions in Indonesia with the best
               standards and processing.
             </p>
-            <h3>Journey</h3>
+            <h3>Our Journey</h3>
             <p>
               At the beginning, our company engaged with small manufactures in
               our area. The factory produces various types of coconut-based
@@ -642,6 +751,11 @@
             header.classList.add("navbar-dark", windowPosition);
           }
         }
+      });
+
+      // Collapse
+      $(".js-scroll-trigger").click(function () {
+        $(".navbar-collapse").collapse("hide");
       });
 
       /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
