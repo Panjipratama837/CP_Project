@@ -262,7 +262,7 @@ img {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  /* Carousel */
+  /* Carousel css */
   .item-carousel h1 {
     font-size: 3rem;
   }
