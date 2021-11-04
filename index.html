@@ -612,7 +612,52 @@
     <!-- TEAM -->
 
     <!-- CONTACT -->
-    <section id="contact">
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-8 mx-auto text-center">
+            <h6 class="text-primary">CONTACT</h6>
+            <h1>Contact Us</h1>
+          </div>
+        </div>
+        
+        <form action="" class="row g-3">
+          <div class="col-md-6">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName">
+          </div>
+  
+          <div class="col-md-6">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName">
+          </div>
+  
+          <div class="col-md-8">
+            <label for="emailInfo" class="form-label">E-mail</label>
+            <input type="text" class="form-control" id="emailInfo">
+          </div>
+  
+          <div class="col-md-4">
+            <label for="phoneNumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="phoneNumber" placeholder="+6285547738672">
+          </div>
+  
+          <div class="col-md-12">
+            <label for="comments" class="form-label">Comments, question?</label>
+            <textarea class="form-control" id="comments" rows="3" required></textarea>
+          </div>
+  
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+         </form>
+        
+        
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section>
       <footer>
         <div class="footer-top">
           <div class="container">
@@ -673,6 +718,10 @@
       </footer>
     </section>
 
+    <a href="https://wa.me/+6282246883583" class="whatsapp_float show-whatsapp" target="_blank" id="scroll-up"> 
+      <i class='bx bxl-whatsapp'></i>
+    </a>
+
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/wow.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -695,6 +744,15 @@
           }
         }
       });
+
+      // Show Whatsapp
+      function scrollUp() {
+        const scrollUp = document.getElementById("scroll-up");
+        // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
+        if (this.scrollY >= 560) scrollUp.classList.remove("show-whatsapp");
+        else scrollUp.classList.add("show-whatsapp");
+      }
+      window.addEventListener("scroll", scrollUp);
 
       // Collapse
       $(".js-scroll-trigger").click(function () {
