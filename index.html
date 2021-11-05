@@ -621,30 +621,40 @@
           </div>
         </div>
         
-        <form action="" class="row g-3">
+        <form action="https://formsubmit.co/pratamapanji1928@gmail.com" method="POST" class="row g-3">
+
+          <!-- Action formSubmit -->
+          <input type="hidden" name="_subject" value="New message!" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://panjipratama837.github.io/CP_Project/thanks.html"
+          />
+
           <div class="col-md-6">
             <label for="firstName" class="form-label">First Name</label>
-            <input type="text" class="form-control" id="firstName">
+            <input type="text" class="form-control" id="firstName" name="firstName">
           </div>
   
           <div class="col-md-6">
             <label for="lastName" class="form-label">Last Name</label>
-            <input type="text" class="form-control" id="lastName">
+            <input type="text" class="form-control" id="lastName" name="lastName">
           </div>
   
           <div class="col-md-8">
             <label for="emailInfo" class="form-label">E-mail</label>
-            <input type="text" class="form-control" id="emailInfo">
+            <input type="text" class="form-control" id="emailInfo" name="email">
           </div>
   
           <div class="col-md-4">
             <label for="phoneNumber" class="form-label">Phone Number</label>
-            <input type="text" class="form-control" id="phoneNumber" placeholder="+6285547738672">
+            <input type="text" class="form-control" id="phoneNumber" placeholder="+6285547738672" name="phone">
           </div>
   
           <div class="col-md-12">
-            <label for="comments" class="form-label">Comments, question?</label>
-            <textarea class="form-control" id="comments" rows="3" required></textarea>
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="comments" name="message" rows="3" required></textarea>
           </div>
   
           <div class="col-md-12">
