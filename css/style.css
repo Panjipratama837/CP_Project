@@ -156,6 +156,10 @@ img {
   margin: 25px 0;
 }
 
+.list-group-item {
+  color: #888888;
+}
+
 .card {
   width: 100%;
 }
@@ -410,5 +414,9 @@ img {
     bottom: 20px;
     right: 10px;
     font-size: 38px;
+  }
+
+  .pt-mobile {
+    padding-top: 1.5rem;
   }
 }
