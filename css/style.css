@@ -119,9 +119,7 @@ img {
 }
 
 .section {
-  /* pt 120px */
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 100px;
 }
 
 /* Workingspace */
@@ -310,10 +308,32 @@ img {
   margin-top: 16px;
 }
 
+.card-title {
+  font-size: 0.8rem;
+}
+
+.btn {
+  font-size: 10px;
+}
+
 /* Media Queries */
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .section {
+    /* pt 120px */
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
   /* Carousel */
   .item-carousel h1 {
     font-size: 3rem;
