@@ -293,7 +293,7 @@ img {
   width: 60px;
   height: 60px;
   bottom: 40px;
-  right: 40px;
+  right: 5px;
   background-color: #25d366;
   color: #fff;
   border-radius: 50px;
@@ -382,11 +382,5 @@ img {
     bottom: 20px;
     right: 10px;
     font-size: 38px;
-  }
-
-  .carousel-caption {
-    bottom: 150px;
-    padding-left: 100px;
-    padding-right: 100px;
   }
 }
