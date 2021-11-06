@@ -154,6 +154,10 @@ img {
   margin: 25px 0;
 }
 
+.card {
+  width: 100%;
+}
+
 .card-effect {
   box-shadow: var(--box-shadow);
   background-color: var(--white);
