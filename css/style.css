@@ -119,6 +119,7 @@ img {
 }
 
 .section {
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -303,10 +304,6 @@ img {
     bottom: 280px;
     padding-left: 100px;
     padding-right: 100px;
-  }
-  .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
   }
 
   .hidden {
