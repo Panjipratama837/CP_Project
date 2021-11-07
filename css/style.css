@@ -324,10 +324,18 @@ img {
   font-size: 10px;
 }
 
+.span-left {
+  margin-left: 1.4rem;
+}
+
 /* Media Queries */
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .span-left {
+    margin-left: 0;
+  }
+
   .section {
     /* pt 120px */
     padding-top: 120px;
@@ -404,7 +412,28 @@ img {
 }
 
 /* for mobile */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+  .whatsapp_float {
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 38px;
+  }
+
+  .pt-mobile {
+    padding-top: 1.5rem;
+  }
+
+  .span-left {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 576px) {
   .whatsapp-icon {
     margin-top: 10px;
   }
