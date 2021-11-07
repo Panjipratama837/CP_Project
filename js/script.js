@@ -20,7 +20,7 @@ window.addEventListener("scroll", function () {
 function scrollUp() {
   const scrollUp = document.getElementById("scroll-up");
   // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
-  if (this.scrollY >= 560) scrollUp.classList.remove("show-whatsapp");
+  if (this.scrollY >= 260) scrollUp.classList.remove("show-whatsapp");
   else scrollUp.classList.add("show-whatsapp");
 }
 window.addEventListener("scroll", scrollUp);
