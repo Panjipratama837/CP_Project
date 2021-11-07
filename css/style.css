@@ -171,11 +171,11 @@ img {
 .shadow,
 .card-effect {
   box-shadow: var(--box-shadow);
-  background-color: var(--white);
   transition: all 0.35s ease;
 }
 
 .card-effect {
+  background-color: var(--white);
   padding: 25px;
 }
 
