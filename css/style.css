@@ -164,11 +164,19 @@ img {
   width: 100%;
 }
 
+.pbot-2 {
+  padding-bottom: 2rem;
+}
+
+.shadow,
 .card-effect {
   box-shadow: var(--box-shadow);
   background-color: var(--white);
-  padding: 25px;
   transition: all 0.35s ease;
+}
+
+.card-effect {
+  padding: 25px;
 }
 
 .card-effect:hover {
@@ -187,11 +195,6 @@ img {
   font-size: 32px;
   border-radius: 100px;
   flex: none;
-}
-
-.oflow {
-  overflow: auto;
-  height: 200px;
 }
 
 .service {
