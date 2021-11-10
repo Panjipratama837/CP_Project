@@ -32,7 +32,7 @@
         class="navbar fixed-top navbar-expand-lg navbar-light bg-light"
       >
         <div class="container">
-          <a class="navbar-brand logos" href="#home">Navbar</a>
+          <a class="navbar-brand logos" href="#home">Javacomm</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -50,7 +50,7 @@
                 <a
                   class="nav-link js-scroll-trigger"
                   aria-current="page"
-                  href="https://panjipratama837.github.io/CP_Project/"
+                  href="#home"
                   >Home</a
                 >
               </li>
@@ -67,7 +67,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="features.html"
-                  >Features</a
+                  >Our Values</a
                 >
               </li>
               <li class="nav-item">
@@ -131,55 +131,79 @@
           />
 
           <div class="col-md-6">
-            <label for="firstName" class="form-label">First Name</label>
-            <input
-              type="text"
-              class="form-control"
-              id="firstName"
-              name="firstName"
-            />
+            <div class="col-md-12">
+              <label for="firstName" class="form-label">Full Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullName"
+                name="fullName"
+              />
+            </div>
+
+            <div class="col-md-12">
+              <label for="organization" class="form-label"
+                >Organization / Company</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="organization"
+                name="organization"
+              />
+            </div>
+
+            <div class="col-md-12">
+              <label for="emailInfo" class="form-label">E-mail</label>
+              <input
+                type="text"
+                class="form-control"
+                id="emailInfo"
+                name="email"
+              />
+            </div>
+
+            <div class="col-md-12">
+              <label for="phoneNumber" class="form-label">Phone Number</label>
+              <input
+                type="text"
+                class="form-control"
+                id="phoneNumber"
+                placeholder="+62815xxxxxxxx"
+                name="phone"
+              />
+            </div>
           </div>
 
           <div class="col-md-6">
-            <label for="lastName" class="form-label">Last Name</label>
-            <input
-              type="text"
-              class="form-control"
-              id="lastName"
-              name="lastName"
-            />
-          </div>
+            <div class="col-md-12">
+              <label for="" class="form-label">How do you hear about us?</label>
+              <select
+                class="form-select"
+                id="floatingSelect"
+                aria-label="Floating label select example"
+              >
+                <option selected value="1">
+                  Social Media (Facebook, Instagram, Twitter, Linkedin, Others)
+                </option>
+                <option value="2">Google Search</option>
+                <option value="3">Referral</option>
+                <option value="4">Webinar</option>
+                <option value="5">Blogs</option>
+                <option value="6">Other</option>
+              </select>
+            </div>
 
-          <div class="col-md-8">
-            <label for="emailInfo" class="form-label">E-mail</label>
-            <input
-              type="text"
-              class="form-control"
-              id="emailInfo"
-              name="email"
-            />
-          </div>
-
-          <div class="col-md-4">
-            <label for="phoneNumber" class="form-label">Phone Number</label>
-            <input
-              type="text"
-              class="form-control"
-              id="phoneNumber"
-              placeholder="+6285547738672"
-              name="phone"
-            />
-          </div>
-
-          <div class="col-md-12">
-            <label for="message" class="form-label">Message</label>
-            <textarea
-              class="form-control"
-              id="comments"
-              name="message"
-              rows="3"
-              required
-            ></textarea>
+            <div class="col-md-12">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                class="form-control"
+                id="comments"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
           </div>
 
           <div class="col-md-12 pb-3">
@@ -233,7 +257,7 @@
                 <ul class="list-unstyled">
                   <li>Address: 2715 Ash Dr. San Jose, South Dakota 83475</li>
                   <li>Email: jackson.graham@example.com</li>
-                  <li>Phone: (603) 555-0123</li>
+                  <li>Phone: +62811822611</li>
                 </ul>
               </div>
             </div>
@@ -259,7 +283,7 @@
     </section>
 
     <a
-      href="https://wa.me/+6282246883583"
+      href="https://wa.me/+62811822611"
       class="whatsapp_float"
       target="_blank"
       id="scroll-up"
