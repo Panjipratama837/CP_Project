@@ -339,10 +339,6 @@ img {
   font-size: 0.8rem;
 }
 
-.btn-size {
-  font-size: 6px;
-}
-
 .span-left {
   margin-left: 1.4rem;
 }
@@ -351,10 +347,6 @@ img {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .btn-size {
-    font-size: 16px;
-  }
-
   .t-45 {
     top: -45px;
   }
@@ -442,10 +434,6 @@ img {
 
 /* for mobile */
 @media screen and (min-width: 768px) {
-  .btn-size {
-    font-size: 16px;
-  }
-
   .t-45 {
     top: -45px;
   }
